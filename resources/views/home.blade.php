@@ -8,7 +8,6 @@
     <div class="container mt-5">
         <h2 class="text-center mb-4">Temas Destacados</h2>
         <div class="row">
-            <!-- Tema 1 -->
             <div class="col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body text-center">
@@ -18,7 +17,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Tema 2 -->
             <div class="col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body text-center">
@@ -95,7 +93,7 @@
             <div class="col-md-4">
                 <h5>Información</h5>
                 <ul class="list-unstyled">
-                    <li>Reservas</li>
+                    <a class="nav-link" href="{{ route('usuarios.index') }}">Reservas</a>
                     <li>Ofertas</li>
                     <li>Destinos</li>
                     <li>Check-in</li>
@@ -106,7 +104,9 @@
                 <ul class="list-unstyled">
                     <li>Restricciones</li>
                     <li>Documentos requeridos</li>
-                    <li>Aerocivil</li>
+                    <li>
+                        <a class="nav-link" href="https://www.aerocivil.gov.co" target="_blank">Aerocivil</a>
+                    </li>
                     <li>Aeropuertos</li>
                 </ul>
             </div>
@@ -121,12 +121,10 @@
         </div>
     </div>
 
-    <!-- Bootstrap y estilos personalizados -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <style>
-        /* Estilos para los bloques de testimonios */
         blockquote {
             background-color: #f9f9f9;
             border-left: 10px solid #ccc;
@@ -135,7 +133,6 @@
             border-radius: 10px;
         }
 
-        /* Footer estilos */
         h5 {
             color: #333;
             font-weight: bold;
