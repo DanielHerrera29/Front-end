@@ -34,6 +34,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('encuestas.index') }}">Contactos</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" href="{{ route('register') }}">Registrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" href="{{ route('login') }}">Ingresa</a>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -1,51 +1,31 @@
 @extends('layouts.app')
 
-@section('title', 'Usuarios')
+@section('title', 'Login')
 
 @section('content')
-    <div class="container mt-5 text-center">
-        <h1>Reserva tu vuelo</h1>
-    </div>
-    <div class="card-body">
-        <form>
-            <div class="mb-3">
-                <label for="origen" class="form-label">Origen</label>
-                <div class="input-group">
-                    <input type="text" class="form-control" id="origen" placeholder="Value">
-                    <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
-                </div>
-            </div>
 
-            <div class="mb-3">
-                <label for="destino" class="form-label">Destino</label>
-                <div class="input-group">
-                    <input type="text" class="form-control" id="destino" placeholder="Value">
-                    <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
-                </div>
-            </div>
-
-            <div class="mb-3">
-                <label for="fechaSalida" class="form-label">Fecha de salida</label>
-                <div class="input-group">
-                    <input type="date" class="form-control" id="fechaSalida">
-                    <span class="input-group-text"><i class="bi bi-calendar"></i></span>
-                </div>
-            </div>
-
-            <div class="mb-3">
-                <label for="cantidadPersonas" class="form-label">Cantidad Personas</label>
-                <div class="input-group">
-                    <input type="number" class="form-control" id="cantidadPersonas" placeholder="Value">
-                    <span class="input-group-text"><i class="bi bi-people"></i></span>
-                </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i> Buscar Vuelos</button>
-        </form>
-    </div>
-    </div>
+    <div class="text-center mt-5">
+        <img src="{{ asset('Image/vuelo.png') }}" style="width: 300px;">
+        <h1 class="mt-3">Check a Seat</h1>
+        <p>DILIGENCIA TU INFORMACIÓN</p>
     </div>
 
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-4">
+            <form action="{{ route('login.process') }}" method="POST">
+                @csrf
+                <div class="form-group mb-3">
+                    <input type="text" name="email" class="form-control form-control-lg" placeholder="Usuario" required>
+                </div>
+                <div class="form-group mb-3">
+                    <input type="password" name="password" class="form-control form-control-lg" placeholder="Contraseña"
+                        required>
+                </div>
+                <button type="submit" class="btn btn-dark-gray btn-lg w-100">Ingresar</button>
+
+            </form>
+        </div>
+    </div>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
     <div class="container mt-5">
@@ -92,7 +72,22 @@
             border-radius: 10px;
         }
 
-        /* Footer estilos */
+        .btn-dark-gray {
+            background-color: #333;
+            /* Gris oscuro */
+            border-color: #333;
+            /* Gris oscuro */
+            color: white;
+            /* Texto blanco */
+        }
+
+        .btn-dark-gray:hover {
+            background-color: #000;
+            /* Negro al hacer hover */
+            border-color: #000;
+            /* Negro */
+        }
+
         h5 {
             color: #333;
             font-weight: bold;
