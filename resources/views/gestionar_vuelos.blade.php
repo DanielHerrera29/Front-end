@@ -10,62 +10,62 @@
         <h2>Gestionar Vuelos</h2>
     </div>
     <div class="container mt-5 text-center">
-		<div class="input-group mb-3">
-			  <span class="input-group-text"><i class="bi bi-search"></i></span>
-			  <input type="text" class="form-control" placeholder="Buscar" name="buscar">
-		 </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="bi bi-search"></i></span>
+            <input type="text" class="form-control" placeholder="Buscar" name="buscar">
+        </div>
 
-		<button type="submit" class="btn btn-outline-secondary"><i class="bi bi-plus"></i> Crear Vuelo</button>
+        <button type="submit" class="btn btn-outline-secondary"><i class="bi bi-plus"></i> Crear Vuelo</button>
     </div>
 
-<div class="container mt-5 text-center">
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Ciudad Origen</th>
-        <th>Ciudad Destino</th>
-        <th>Fecha</th>
-        <th>Hora</th>
-        <th>Aerolinea</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Bogota</td>
-        <td>Medellin</td>
-        <td>2024-09-15</td>
-        <td>8:00 AM</td>
-        <td>LATAM</td>
-        <td><i class="bi bi-pen"></i>  <i class="bi bi-trash"></i></td>
-      </tr>
-      <tr>
-        <td>Cali</td>
-        <td>Medellin</td>
-        <td>2024-09-16</td>
-        <td>10:30 PM</td>
-        <td>Avianca</td>
-        <td><i class="bi bi-pen"></i>  <i class="bi bi-trash"></i></td>
-      </tr>
-      <tr>
-        <td>Pasto</td>
-        <td>Bogota</td>
-        <td>2024-09-24</td>
-        <td>6:30 AM</td>
-        <td>Avianca</td>
-        <td><i class="bi bi-pen"></i>  <i class="bi bi-trash"></i></td>
-      </tr>
-      <tr>
-        <td>Bogota</td>
-        <td>Medellin</td>
-        <td>2024-09-30</td>
-        <td>3:00 PM</td>
-        <td>Ultra Air</td>
-        <td><i class="bi bi-pen"></i>  <i class="bi bi-trash"></i></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+    <div class="container mt-5 text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ciudad Origen</th>
+                    <th>Ciudad Destino</th>
+                    <th>Fecha</th>
+                    <th>Hora</th>
+                    <th>Aerolinea</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bogota</td>
+                    <td>Medellin</td>
+                    <td>2024-09-15</td>
+                    <td>8:00 AM</td>
+                    <td>LATAM</td>
+                    <td><i class="bi bi-pen"></i> <i class="bi bi-trash"></i></td>
+                </tr>
+                <tr>
+                    <td>Cali</td>
+                    <td>Medellin</td>
+                    <td>2024-09-16</td>
+                    <td>10:30 PM</td>
+                    <td>Avianca</td>
+                    <td><i class="bi bi-pen"></i> <i class="bi bi-trash"></i></td>
+                </tr>
+                <tr>
+                    <td>Pasto</td>
+                    <td>Bogota</td>
+                    <td>2024-09-24</td>
+                    <td>6:30 AM</td>
+                    <td>Avianca</td>
+                    <td><i class="bi bi-pen"></i> <i class="bi bi-trash"></i></td>
+                </tr>
+                <tr>
+                    <td>Bogota</td>
+                    <td>Medellin</td>
+                    <td>2024-09-30</td>
+                    <td>3:00 PM</td>
+                    <td>Ultra Air</td>
+                    <td><i class="bi bi-pen"></i> <i class="bi bi-trash"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <!-- Bootstrap 5 and Bootstrap Icons CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">

@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <a class="navbar-brand" href="{{ route('home') }}">
                 <img src="{{ asset('Image/icon.png') }}" style="height: 50px;">
             </a>
             <div class="collapse navbar-collapse justify-content-end">
