@@ -17,6 +17,9 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('usuarios.index') }}">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('usuarios.index') }}">Reservas</a>
                     </li>
                     <li class="nav-item">
