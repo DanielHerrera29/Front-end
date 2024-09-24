@@ -3,13 +3,7 @@
 @section('title', 'Contacto')
 
 @section('content')
-<nav class="navbar">
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Registrate</a></li>
-    </ul>
-  </nav>
+
     <div class="container mt-5 text-center">
         <h1>Contacto</h1>
     </div>
@@ -17,8 +11,8 @@
         <h2></h2>
     </div>
    
-    <div class="card-body">
-        <form>
+    <div class="card-body mb-3">
+        <form class="mb-4">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <div class="input-group">
@@ -53,8 +47,10 @@
 
             <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i> Enviar</button>
         </form>
+        <br/>
     </div>
-
+    <br/>
+    <br>
     <div class="info">
         <h2>¿Tienes alguna duda?</h2>
         <p>Si deseas consultar mayor información sobre nuestros servicios o tienes alguna duda al respecto, no dudes en contactarnos.</p>

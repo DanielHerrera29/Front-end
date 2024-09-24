@@ -16,5 +16,22 @@ Route::get('/home', function () {
 Route::get('/registrate', function () {
     return view('registrate');
 })->name('register');
+
+Route::get('/reservas', function () {
+    return view('reservas');
+})->name('reservas');
+
+Route::get('/gestionarvuelos', function () {
+    return view('gestionarvuelos');
+})->name('gestionarvuelos');
+
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
+
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+
 Route::resource('usuarios', UsuarioController::class);
 Route::resource('encuestas', EncuestaController::class);

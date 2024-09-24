@@ -17,12 +17,21 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route(name: 'home') }}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('usuarios.index') }}">Usuarios</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('usuarios.index') }}">Reservas</a>
+                        <a class="nav-link" href="{{ route('reservas') }}">Reservas</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('gestionarvuelos') }}">Vuelos</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="{{ route('encuestas.index') }}">Ofertas</a>
                     </li>
                     <li class="nav-item">
@@ -33,9 +42,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('encuestas.index') }}">Ayuda</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('encuestas.index') }}">Contactos</a>
+                        <a class="nav-link" href="{{ route('contacto') }}">Contactos</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn btn-outline-primary" href="{{ route('register') }}">Registrate</a>

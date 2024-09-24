@@ -14,7 +14,6 @@
         </button>
     </div>
 
-<<<<<<< HEAD
     <table class="table table-sm">
         <thead>
             <tr>
@@ -117,39 +116,6 @@
                 <li>Ayuda</li>
                 <li>Contacto</li>
             </ul>
-=======
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
-    <div class="container mt-5">
-        <h2 class="text-center mb-4">Servicios</h2>
-        <div class="row text-center">
-            <div class="col-md-4">
-                <h5>Información</h5>
-                <ul class="list-unstyled">
-                    <li>Reservas</li>
-                    <li>Ofertas</li>
-                    <li>Destinos</li>
-                    <li>Check-in</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h5>Enlaces</h5>
-                <ul class="list-unstyled">
-                    <li>Restricciones</li>
-                    <li>Documentos requeridos</li>
-                    <li>Aerocivil</li>
-                    <li>Aeropuertos</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h5>Legal</h5>
-                <ul class="list-unstyled">
-                    <li>Trabaja con nosotros</li>
-                    <li>Ayuda</li>
-                    <li>Contacto</li>
-                </ul>
-            </div>
->>>>>>> 69a2d87dc1ce694e5150c7282817f3861aa28e9d
         </div>
     </div>
 </div>
