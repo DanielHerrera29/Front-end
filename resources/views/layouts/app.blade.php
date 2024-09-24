@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <a class="navbar-brand" href="{{ route('home') }}">
                 <img src="{{ asset('Image/icon.png') }}" style="height: 50px;">
             </a>
             <div class="collapse navbar-collapse justify-content-end">
@@ -36,6 +36,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('encuestas.index') }}">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" href="{{ route('register') }}">Registrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" href="{{ route('login') }}">Ingresa</a>
                     </li>
                 </ul>
             </div>
